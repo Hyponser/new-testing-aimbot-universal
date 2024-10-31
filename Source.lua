@@ -308,7 +308,7 @@ end)
 
 do
     local Window = Fluent:CreateWindow({
-        Title = string.format("%s <b><i>🔥FREE🔥</i></b>", string.format(MonthlyLabels[os.date("*t").month], "Karvied.cc")),
+        Title = string.format("%s <b><i>FREE</i></b>", string.format(MonthlyLabels[os.date("*t").month], "Karvied.cc")),
         SubTitle = "By @harassment",
         TabWidth = UISettings.TabWidth,
         Size = UDim2.fromOffset(table.unpack(UISettings.Size)),
@@ -322,8 +322,8 @@ do
     Window:SelectTab(1)
 
     Tabs.Aimbot:AddParagraph({
-        Title = string.format("%s 🔥FREE🔥", string.format(MonthlyLabels[os.date("*t").month], "Karvied.cc")),
-        Content = "✨Universal Aim Assist Framework✨\nhttps://discord.gg/karvscripts"
+        Title = string.format("%s FREE", string.format(MonthlyLabels[os.date("*t").month], "Karvied.cc")),
+        Content = "Made Only By Harassment\nhttps://discord.gg/karvscripts"
     })
 
     local AimbotSection = Tabs.Aimbot:AddSection("Aimbot")
@@ -569,8 +569,8 @@ do
     Tabs.Bots = Window:AddTab({ Title = "Bots", Icon = "bot" })
 
     Tabs.Bots:AddParagraph({
-        Title = string.format("%s 🔥FREE🔥", string.format(MonthlyLabels[os.date("*t").month], "Karvied.cc")),
-        Content = "✨Universal Aim Assist Framework✨\nhttps://discord.gg/karvscripts"
+        Title = string.format("%s FREE", string.format(MonthlyLabels[os.date("*t").month], "Karvied.cc")),
+        Content = "Made Only by harassment\nhttps://discord.gg/karvscripts"
     })
 
     local SpinBotSection = Tabs.Bots:AddSection("SpinBot")
@@ -727,8 +727,8 @@ do
     Tabs.Checks = Window:AddTab({ Title = "Checks", Icon = "list-checks" })
 
     Tabs.Checks:AddParagraph({
-        Title = string.format("%s 🔥FREE🔥", string.format(MonthlyLabels[os.date("*t").month], "Karvied.cc")),
-        Content = "✨Universal Aim Assist Framework✨\nhttps://discord.gg/karvscripts"
+        Title = string.format("%sFREE", string.format(MonthlyLabels[os.date("*t").month], "Karvied.cc")),
+        Content = "Made Only by harassment\nhttps://discord.gg/karvscripts"
     })
 
     local SimpleChecksSection = Tabs.Checks:AddSection("Simple Checks")
@@ -1084,8 +1084,8 @@ do
         Tabs.Visuals = Window:AddTab({ Title = "Visuals", Icon = "box" })
 
         Tabs.Visuals:AddParagraph({
-            Title = string.format("%s 🔥FREE🔥", string.format(MonthlyLabels[os.date("*t").month], "Karvied.cc")),
-            Content = "✨Universal Aim Assist Framework✨\nhttps://discord.gg/karvscripts"
+            Title = string.format("%s FREE", string.format(MonthlyLabels[os.date("*t").month], "Karvied.cc")),
+            Content = "Made Only by harassment\nhttps://discord.gg/karvscripts"
         })
 
         local FoVSection = Tabs.Visuals:AddSection("FoV")
@@ -1288,8 +1288,8 @@ do
     Tabs.Settings = Window:AddTab({ Title = "Settings", Icon = "settings" })
 
     Tabs.Settings:AddParagraph({
-        Title = string.format("%s 🔥FREE🔥", string.format(MonthlyLabels[os.date("*t").month], "Karvied.cc")),
-        Content = "✨Universal Aim Assist Framework✨\nhttps://discord.gg/karvscripts"
+        Title = string.format("%s FREE", string.format(MonthlyLabels[os.date("*t").month], "Karvied.cc")),
+        Content = "Made Only by harassment\nhttps://discord.gg/karvscripts"
     })
 
     local UISection = Tabs.Settings:AddSection("UI")
@@ -1636,7 +1636,7 @@ do
         elseif ShowWarning then
             Window:Dialog({
                 Title = "Warning",
-                Content = string.format("Your Software does not support all the Features of %s 🔥FREE🔥!", string.format(MonthlyLabels[os.date("*t").month], "Karvied.cc")),
+                Content = string.format("Your Software does not support all the Features of %s FREE!", string.format(MonthlyLabels[os.date("*t").month], "Karvied.cc")),
                 Buttons = {
                     {
                         Title = "Confirm"
@@ -1663,9 +1663,9 @@ end
 local function Notify(Message)
     if Fluent and typeof(Message) == "string" then
         Fluent:Notify({
-            Title = string.format("%s 🔥FREE🔥", string.format(MonthlyLabels[os.date("*t").month], "Karvied.cc")),
+            Title = string.format("%s FREE", string.format(MonthlyLabels[os.date("*t").month], "Karvied.cc")),
             Content = Message,
-            SubContent = "By @ttwiz_z",
+            SubContent = "By @harassment",
             Duration = 1.5
         })
     end
