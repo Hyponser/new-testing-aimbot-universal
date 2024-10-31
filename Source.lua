@@ -1646,7 +1646,7 @@ do
         else
             Window:Dialog({
                 Title = string.format("%s 💫PREMIUM💫", string.format(MonthlyLabels[os.date("*t").month], "Karvied.cc")),
-                Content = "✨Upgrade to unlock all Options✨ – Contact @._.harassment._. via Discord to buy",
+                Content = "✨Upgrade to unlock all Options✨Contact @._.harassment._. via Discord to buy",
                 Buttons = {
                     {
                         Title = "Confirm"
@@ -1663,7 +1663,7 @@ end
 local function Notify(Message)
     if Fluent and typeof(Message) == "string" then
         Fluent:Notify({
-            Title = string.format("%s FREE", string.format(MonthlyLabels[os.date("*t").month], "Karvied.cc")),
+            Title = string.format("%sFREE", string.format(MonthlyLabels[os.date("*t").month], "Karvied.cc")),
             Content = Message,
             SubContent = "By @harassment",
             Duration = 1.5
